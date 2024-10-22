@@ -1,5 +1,5 @@
 """
-주어진 로마 숫자 문자열을 정수로 변환하는 기능을 합니다.
+주어진 로마 숫자 문자열을 정수로 변환하는 기능을 합니다..
 (This function converts a given Roman numeral string to an integer.)
 
 Args:
