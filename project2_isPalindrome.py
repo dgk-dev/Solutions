@@ -21,3 +21,16 @@ class Solution:
         
         # 문자열이 거꾸로 읽었을 때도 같은지 확인 (Check if the string reads the same forwards and backwards)
         return str_x == str_x[::-1]
+
+# Example Usage
+num1 = 121
+print(Solution().isPalindrome(num1))  # Output: True
+
+num2 = -121
+print(Solution().isPalindrome(num2))  # Output: False
+
+num3 = 10
+print(Solution().isPalindrome(num3))  # Output: False
+
+num4 = 12321
+print(Solution().isPalindrome(num4))  # Output: True

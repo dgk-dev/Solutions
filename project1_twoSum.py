@@ -18,3 +18,17 @@ class Solution:
             for j in range(i + 1, len(nums)):
                 if nums[i] + nums[j] == target:
                     return [i, j]
+
+# 사용 예시
+# Example Usage
+nums1 = [2, 7, 11, 15]
+target1 = 9
+print(Solution().twoSum(nums1, target1))  # Output: [0, 1]
+
+nums2 = [3, 2, 4]
+target2 = 6
+print(Solution().twoSum(nums2, target2))  # Output: [1, 2]
+
+nums3 = [3, 3]
+target3 = 6
+print(Solution().twoSum(nums3, target3))  # Output: [0, 1]

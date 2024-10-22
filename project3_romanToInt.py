@@ -28,3 +28,19 @@ class Solution:
 # 결과 출력 (Print result)
 result = Solution().romanToInt("IIIIV")
 print(result)
+
+# Example Usage
+roman_str1 = "III"
+print(Solution().romanToInt(roman_str1))  # Output: 3
+
+roman_str2 = "IV"
+print(Solution().romanToInt(roman_str2))  # Output: 4
+
+roman_str3 = "IX"
+print(Solution().romanToInt(roman_str3))  # Output: 9
+
+roman_str4 = "LVIII"
+print(Solution().romanToInt(roman_str4))  # Output: 58
+
+roman_str5 = "MCMXCIV"
+print(Solution().romanToInt(roman_str5))  # Output: 1994
