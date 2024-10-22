@@ -9,7 +9,7 @@ Returns:
     str: 가장 긴 공통 접두사를 반환합니다. 공통 접두사가 없을 경우 빈 문자열을 반환합니다. (Returns the longest common prefix or an empty string if none is found)
 """
 
-def longest_common_prefix(strs):
+def longestCommonPrefix(strs):
     # 입력 리스트가 비어 있는지 확인합니다. 비어 있다면 빈 문자열을 반환합니다.
     # Check if the input list is empty. If so, return an empty string.
     if not strs:
@@ -40,7 +40,7 @@ def longest_common_prefix(strs):
 # 사용 예시
 # Example Usage
 strs1 = ["flower", "flow", "flight"]
-print(longest_common_prefix(strs1))  # Output: "fl"
+print(longestCommonPrefix(strs1))  # Output: "fl"
 
 strs2 = ["dog", "racecar", "car"]
-print(longest_common_prefix(strs2))  # Output: ""
+print(longestCommonPrefix(strs2))  # Output: ""
